@@ -8,7 +8,7 @@
 6 6      6      1  406    6      1     7
 > fit.a = glm(leuk/n ~ as.factor(age) + rad, family= "binomial", weights = n)
 > fit.b = glm(other/n ~ as.factor(age) + rad, family= "binomial", weights = n)
-> fit.b = glm(other/n ~ as.factor(age) + rad, family= "binomial", weights = n)
+> fit.c = glm(cancer/n ~ as.factor(age) + rad, family= "binomial", weights = n)
 >
 >
 >
